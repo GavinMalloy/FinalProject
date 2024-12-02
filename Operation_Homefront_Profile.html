@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HelpHub Homepage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="body-class">
+    <nav class="nav-class">
+      | <a href="index.html" class="nav-link-class">HelpHub Home</a> |
+      <a href="charities.html" class="nav-link-class">Charity Profile</a> |
+    </nav>
+    <header class="header-class">
+      <h1 class="title-class">Operation Homefront Profile</h1>
+    </header>
+
+    <section class="offer-section-class">
+      <h2 class="section-title-class">This Operation Homefront</h2>
+      <div class="image-bin">
+        <img
+          src="https://operationhomefront.org/wp-content/uploads/2020/09/16x9-oh.jpg"
+          alt="An image of Operation Homefront's logo"
+          class="image-class"
+        />
+        <div class="hover-para">
+          O-HF was founded in 2002 to serve ill or injured veterans and their
+          families. Operation Homefront was formed as a response to the
+          increased strain on military servace members and their families due to
+          9/11.
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight-section-class">
+      <h2 class="section-title-class">Operation Homefront Highlights</h2>
+      <p class="text-class">
+        Operation Homefront is a nationally recognized nonprofit organization.
+        Their aim? Homefront works to build up military families so they can be
+        strong, stable, and secure. How do they plan to do that? Homefront works
+        to provide short-term financial relief while offering support programs
+        to ensure longterm self-sufficiency and strength
+      </p>
+    </section>
+    <div class="contact">
+      <hr />
+      <form action="https://httpbin.org/get" method="get" class="form-class">
+        <p class="text-class">
+          <label for="firstName">First Name:</label>
+          <input type="text" name="firstname" class="firstname" required />
+        </p>
+        <p class="text-class">
+          <label for="LastName">Last Name:</label>
+          <input type="text" name="Lastname" class="Lastname" required />
+        </p>
+        <p class="text-class">
+          <label for="email">Email:</label>
+          <input type="email" name="email" class="email" required />
+        </p>
+        <p class="text-class"></p>
+        <fieldset>
+          <label for="Message" class="message">Leave us a message:</label>
+          <br />
+          <textarea
+            name="message"
+            class="message"
+            cols="30"
+            rows="10"
+            placeholder="Type here"
+          ></textarea>
+        </fieldset>
+        <button class="submit-class" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <footer class="footer-class">
+      <button class="myForm">Volunteer Now</button>
+      <script src="charity_profile.js"></script>
+    </footer>
+  </body>
+</html>
